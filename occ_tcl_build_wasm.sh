@@ -42,5 +42,3 @@ emmake make install
 popd
 export "PATH=$aPathBak"
 
-rm $OUTPUT_FOLDER/../tcl-wasm32.7z &>/dev/null
-7za a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on $OUTPUT_FOLDER/../tcl-wasm32.7z $OUTPUT_FOLDER
